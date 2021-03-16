@@ -211,33 +211,33 @@
     </footer>
      <!-- Вся твоя разметка, включая разметку модалки -->
      <div class="backdrop is-hidden" data-modal>
-         <div class="modal">
-             <button data-modal-close class="mdodal-btn"><svg  width="30" height="30"><use href="./images/symbol-defs.svg#icon-close"></use></svg></button>
-             <h2>Оставьте свои данные, мы вам перезвоним</h2>
-             <form class="form js-speaker-form" name="contacts">
-               <div class="form-field">
-                <label for="name">Имя</label>
-                    <div class="form-input"><input type="text" name="name" id="name"/>
-                     <div class="modal-icon"><svg ><use href="./images/symbol-defs.svg#icon-name-form"></use></svg></div></div>
+         <div class="modal-container">
+             <button data-modal-close class="modal-container__close-button"><svg  width="30" height="30"><use href="./images/symbol-defs.svg#icon-close"></use></svg></button>
+             <h2 class="modal-container__title">Оставьте свои данные, мы вам перезвоним</h2>
+             <form class="form-modal js-speaker-form" name="contacts">
+               <div class="form-field-container">
+                <label class="form-field-container__label" for="name">Имя</label>
+                    <div class="input-container"><input class="input-container__input" type="text" name="name" id="name"/>
+                     <div class="icon-container"><svg class="icon-container__svg"><use href="./images/symbol-defs.svg#icon-name-form"></use></svg></div></div>
                 </div> 
-                <div class="form-field">
-                    <label for="tel">Телефон</label>
-                    <div class="form-input"><input type="tel" name="tel" id="tel"/>
-                    <div class="modal-icon"><svg ><use href="./images/symbol-defs.svg#icon-phone-form"></use></svg></div></div>
+                <div class="form-field-container">
+                    <label class="form-field-container__label" for="tel">Телефон</label>
+                    <div class="input-container"><input class="input-container__input" type="tel" name="tel" id="tel"/>
+                    <div class="icon-container"><svg class="icon-container__svg"><use href="./images/symbol-defs.svg#icon-phone-form"></use></svg></div></div>
             </div>
-            <div class="form-field">
-                <label for="email">Почта</label>
-                <div class="form-input"><input type="email" name="email" id="email"/>
-                    <div class="modal-icon"><svg ><use href="./images/symbol-defs.svg#icon-email-form"></use></svg></div></div>
+            <div class="form-field-container">
+                <label class="form-field-container__label" for="email">Почта</label>
+                <div class="input-container"><input class="input-container__input" type="email" name="email" id="email"/>
+                    <div class="icon-container"><svg class="icon-container__svg"><use href="./images/symbol-defs.svg#icon-email-form"></use></svg></div></div>
             </div>
-            <div class="form-field"> 
-                <label for="comment">Коментарий</label>
-                    <textarea class="textarea" name="comment" id="comment" placeholder="Введите текст"></textarea>
+            <div class="form-field-container"> 
+                <label class="form-field-container__label" for="comment">Коментарий</label>
+                    <textarea class="form-field-container__textarea" name="comment" id="comment" placeholder="Введите текст"></textarea>
             </div>
-            <div class="form-check"><label for="check">
-                <input class="modcheck visually-hidden" type="checkbox" name="check" value="yes" id="check"/><span class="modcheck-svg"><svg ><use href="./images/symbol-defs.svg#icon-check-form"></use></svg></span>
-                Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></label></div>
-                <div class="form-button"><button class="button-send" type="submit">Отправить</button></div>
+            <div class="form-check-container"><label for="check">
+                <input class="form-check-container__input visually-hidden" type="checkbox" name="check" value="yes" id="check"/><span class="check-container"><svg class="check-container__svg"><use href="./images/symbol-defs.svg#icon-check-form"></use></svg></span>
+                Соглашаюсь с рассылкой и принимаю <a class="form-check-container__link" href="#">Условия договора</a></label></div>
+                <div class="form-button-container"><button class="form-button-container__button" type="submit">Отправить</button></div>
 
              </form>
          </div>
