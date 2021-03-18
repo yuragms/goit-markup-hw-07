@@ -1,6 +1,6 @@
 /* Hero*/
 
-.hero-section {
+.hero {
   background-image: linear-gradient(to right, var(--bg-hero), var(--bg-hero)),
     url(../images/Img.jpg);
   max-width: 1600px;
@@ -13,11 +13,11 @@
   background-color: var(--bg-hero);
 
   text-align: center;
-}
 
-.hero-container {
-  min-height: 600px;
-  padding: 200px 15px;
+  &__container {
+    min-height: 600px;
+    padding: 200px 15px;
+  }
 
   &__title {
     color: var(--primary-white-color);
@@ -29,7 +29,7 @@
     margin-bottom: 30px;
   }
 
-  &__link {
+  &__button {
     display: inline-block;
     background-color: var(--accent-color);
     color: var(--primary-white-color);

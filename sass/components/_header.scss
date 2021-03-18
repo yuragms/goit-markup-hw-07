@@ -6,8 +6,8 @@
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.site-nav-list,
-.auth-nav-list {
+.site-nav__list,
+.auth-nav__list {
   display: flex;
 }
 
@@ -23,8 +23,10 @@
   }
 }
 
-.site-nav-list {
-  margin-left: 93px;
+.site-nav {
+  &__list {
+    margin-left: 93px;
+  }
 
   &__link {
     position: relative;
@@ -65,8 +67,10 @@
   }
 }
 
-.auth-nav-list {
-  margin-left: auto;
+.auth-nav {
+  &__list {
+    margin-left: auto;
+  }
 
   &__link {
     display: flex;

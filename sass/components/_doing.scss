@@ -1,6 +1,8 @@
 /* Doing*/
-.doing-container {
-  min-height: 480px;
+.doing {
+  &__container {
+    min-height: 480px;
+  }
 
   &__title {
     color: var(--primary-title-text-color);
@@ -21,7 +23,7 @@
     position: relative;
   }
 
-  &__p {
+  &__text {
     position: absolute;
     bottom: 0;
     width: 100%;

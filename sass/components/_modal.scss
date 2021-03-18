@@ -34,7 +34,9 @@
   background-color: var(--primary-white-color);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.modal {
   &__close-button {
     position: absolute;
     top: 0;
@@ -56,19 +58,21 @@
   }
 }
 
-.form-field-container {
-  display: flex;
-  flex-direction: column;
-  width: 448px;
+.form-modal {
+  &__box {
+    display: flex;
+    flex-direction: column;
+    width: 448px;
 
-  margin-top: 10px;
+    margin-top: 10px;
 
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.166;
-  letter-spacing: 0.01em;
-  text-align: left;
-  color: var(--primary-text-color);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.166;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: var(--primary-text-color);
+  }
 
   &__label {
     margin-bottom: 4px;

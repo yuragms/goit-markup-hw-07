@@ -13,12 +13,14 @@
   overflow: hidden;
 }
 
-.advant-container {
-  min-height: 440px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+.advant {
+  &__container {
+    min-height: 440px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 
-  &__div {
+  &__box {
     width: 270px;
     height: 120px;
     background-color: var(--bg-white-section-color);

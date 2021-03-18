@@ -1,12 +1,14 @@
 /* Client*/
 
-.client-container {
+.client__container {
   padding: 94px 0px;
 }
 
-.social-client-list {
-  display: flex;
-  justify-content: center;
+.client {
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
 
   &__link {
     width: 170px;
