@@ -90,7 +90,7 @@ body {
   color: var(--primary-black-color);
 }
 
-.site-nav__list {
+.site-nav {
   margin-left: 93px;
 }
 
@@ -545,7 +545,7 @@ body {
 
 /* Doing*/
 .doing__container {
-  min-height: 480px;
+  padding-bottom: 94px;
 }
 
 .doing__title {
@@ -780,7 +780,6 @@ footer {
   line-height: 1.714;
   text-align: left;
   margin-bottom: 9px;
-  padding-right: 14px;
 }
 
 .footer-contact__link {
@@ -840,7 +839,7 @@ address {
 }
 
 .social-footer__item:not(:first-child) {
-  padding-left: 10px;
+  margin-left: 10px;
 }
 
 .social-footer__link:hover, .social-footer__link:focus {
@@ -898,8 +897,8 @@ address {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 12px;
-  padding: 10px 26px;
-  width: 199px;
+  padding: 10px 28px;
+  width: 200px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   border: none;

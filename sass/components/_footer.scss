@@ -36,7 +36,6 @@ footer {
   line-height: 1.714;
   text-align: left;
   margin-bottom: 9px;
-  padding-right: 14px;
 }
 
 .footer-contact {
@@ -90,7 +89,7 @@ address {
   }
 
   &__item:not(:first-child) {
-    padding-left: 10px;
+    margin-left: 10px;
   }
 
   &__link:hover,
@@ -144,8 +143,8 @@ address {
     justify-content: center;
 
     margin-left: 12px;
-    padding: 10px 26px;
-    width: 199px;
+    padding: 10px 28px;
+    width: 200px;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     border: none;
